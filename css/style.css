@@ -4,9 +4,10 @@ body {
 }
 
 .navbar {
-    background-color: #ff8fa3;
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #590d22;
+    padding-left: 40px;
    }
 
 .nav-item {
@@ -15,24 +16,74 @@ body {
 }
 
 .quemsomos {
-    background-color: #ffccd5;
-    color: #a4133c;
+    background-color: #590d22;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
+}
+
+.texto-qs {
+    color: white;
+    font-style: italic;
+    padding-top: 30px;
+}
+
+.parceiros {
+    background-color: #800f2f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.texto-parceiro {
+    color: white;
+    font-style: italic;
+    padding-top: 30px;
+}
+
+.servicos {
+    background-color: #a4133c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.texto-serv {
+    color: white;
+    font-style: italic;
+    padding-top: 30px;
+}
+
+.contato {
+    background-color: #c9184a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.texto-cont {
+    color: white;
+    font-style: italic;
+    padding-top: 30px;
 }
 
 .rounded-circle {
     padding-top: 50px;
 }
 
-.texto-p {
-    color: #ff8fa3;
+footer {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    padding-top: 10px;
+    padding: 30px;
+    transition: 1s;
 }
 
-.text-p:hover {
-    color: white;
-    background-color: black;
+footer:hover {
+    background-color: grey;
+    color: black;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
